@@ -1,0 +1,83 @@
+.service{
+    width: 1662px;
+height: 567px;
+top: 2364px;
+left: -29px;
+gap: 0px;
+border-radius: var(--radius-lg);
+opacity: 0.04px;
+position: absolute;
+background: linear-gradient(180deg, #EE4197 0%, #FFFFFF 56.61%);
+display: flex;
+justify-content: center;
+flex-direction: column;
+
+}
+.service_layout{
+    width: 928px;
+height: 255px;
+top: 2430px;
+left: 336px;
+gap: 0px;
+opacity: 0px;
+display: flex;
+justify-content: center;
+flex-direction: column;
+margin: auto;
+
+}
+.service_p1{
+    width: 307px;
+height: 43px;
+gap: 0px;
+opacity: 0px;
+font-family: Cabinet Grotesk;
+font-size: 35px;
+font-weight: 500;
+line-height: 43.4px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+
+}
+span{
+    font-family: Cabinet Grotesk;
+font-size: 35px;
+font-weight: 800;
+line-height: 43.4px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+.service_p2{
+    font-family: Geist;
+font-size: 14px;
+font-weight: 400;
+line-height: 17.36px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+width: 449px;
+height: 17px;
+gap: 0px;
+opacity: 0px;
+color:  #9C9C9C;
+background-color: aliceblue;
+
+}
+.service_logo{
+    width: Fixed (928px)px;
+height: Hug (139px)px;
+top: 2546px;
+left: 336px;
+padding: 10px 0px 10px 0px;
+gap: 0px;
+display: flex;
+
+align-items: center;
+justify-content: space-evenly;
+
+
+}

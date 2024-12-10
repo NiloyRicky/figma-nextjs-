@@ -5,8 +5,11 @@ import Breadcrums from "@/components/Breadcrums/Breadcrums";
 import Hero from "@/components/Hero/Hero";
 import Heroine from "@/components/Heroine/Heroine";
 import Products from "@/components/Products/Products";
-import Main from "@/components/MainProduct/Main";
+
 import MainProduct from "@/components/MainProduct/MainProduct";
+import Services from "@/components/Services/Services";
+import Sofa from "@/components/Sofa/Sofa";
+import Footer from "@/components/Footer/Footer";
 
 
 export default function Home() {
@@ -19,8 +22,9 @@ export default function Home() {
   <Heroine/>
   <Products/>
   <MainProduct/>
-
-     
+  <Services/>
+<Sofa/>
+<Footer/>
     </div>
   );
 }
