@@ -1,0 +1,99 @@
+.heroine{
+    display:flex;
+
+}
+.heroine_left{
+    display: flex;
+    flex-direction: column;
+    
+    height:140px; /*Isko baad mei alter krna mt bhulna*/
+}
+.heroine_product{
+    width: 511px;
+height: 25px;
+top: 927px;
+left: 36px;
+position: absolute;
+
+}
+.heroine_product > p{
+    font-family: Cabinet Grotesk;
+font-size: 20px;
+font-weight: 400;
+line-height: 25px;
+text-align: left;
+
+
+}
+.heroine_description{
+    width: 711px;
+height: 108px;
+top: 962px;
+left: 36px;
+position: absolute;
+
+}
+.heroine_description > p{
+    font-family: Geist;
+font-size: 14px;
+font-weight: 400;
+line-height: 18.2px;
+text-align: left;
+color:#9C9C9C
+}
+
+/*Heroine Right*/
+.heroine_right{
+    display: flex;
+    flex-direction: column;
+}
+.livraison{
+    width: 758px;
+height: 62px;
+top: 925px;
+left: 798px;
+display:flex;
+justify-content:space-between;
+align-items: center;
+position: absolute;
+background-color:#FBF9F899;
+
+
+}
+.livraison > P , .question > p{
+    font-family: Cabinet Grotesk;
+font-size: 16px;
+font-weight: 500;
+line-height: 20.8px;
+text-align: left;
+width: 86px;
+height: 21px;
+color: #393939;
+
+
+
+
+}
+.question{
+    
+    width: 758px;
+height: 62px;
+top: 989px;
+left: 798px;
+display:flex;
+justify-content:space-between;
+align-items: center;
+position: absolute;
+background-color:#FBF9F899;
+
+
+}
+.livraison > img , .question > img{
+    width: 24px;
+height: 24px;
+top: 944px;
+left: 1511px;
+padding: 5px 0px 0px 0px;
+
+
+}

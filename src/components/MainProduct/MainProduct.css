@@ -1,0 +1,195 @@
+.main_products {
+    width: 1600px;
+    height: 511px;
+    position: absolute;
+    top:1700px;
+    margin-top: 15px;
+    padding: 0px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px; /* Space between title and products */
+  }
+  
+  .main_products_title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1540px;
+    height: 43px;
+  }
+  
+  .main_articles {
+    font-family: Cabinet Grotesk;
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 43.4px;
+    text-align: left;
+    text-decoration-skip-ink: none;
+    width: 602px;
+    height: 43px;
+  }
+  
+  .main_collection {
+    width: 602px;
+    height: 43px;
+    font-family: Cabinet Grotesk;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.84px;
+    text-align: left;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+  
+  /* Flex container for images */
+  .main_products_images {
+    width: 1540px; /* Fixed width */
+    height: 438px; /* Fixed height */
+    gap: 19px; /* Space between cards */
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+  }
+  
+  /* Individual product card */
+  .color_table {
+    width: 506.67px; /* Fixed width */
+    height: 362px; /* Fixed height */
+    padding: 20px 10px 8px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #f9f7f5;
+  }
+  
+  /* Heart symbol section */
+  .heart {
+    width: 310px;
+    height: 25.34px;
+    position: relative;
+    top: -32px;
+    gap: 12px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .heart_img {
+    width: 32px;
+    height: 32px;
+    top: -5px;
+    left: -5px;
+    color: black;
+  }
+  
+  .heart_img img {
+    width: 32px;
+    height: 32px;
+    position: relative;
+    top: -5px;
+    left: -5px;
+    color: black;
+  }
+  
+  .heart_para {
+    width: 100px;
+    height: 18px;
+    padding: 5px 25px;
+    text-align: right;
+    border-radius: 4px 0px 0px 0px;
+    background-color: #ffffff;
+  }
+  
+  .heart_para p {
+    width: 84px;
+    height: 15px;
+    font-family: Geist;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 15px;
+    text-align: center;
+    color: #111928;
+  }
+  
+  /* Table image */
+  .table img {
+    width: 224px;
+    height: 224px;
+  }
+  
+  /* Description and Price */
+  .table_des {
+    width: 330px;
+    height: 64px;
+    padding: 0px 10px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 34px;
+  }
+  
+  .table_title {
+    width: 310px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .zero_euro {
+    font-family: Geist;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: right;
+    width: 27px;
+    height: 30px;
+  }
+  
+  .zero_title {
+    font-family: Playfair Display;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+  }
+  
+  .table_price {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12px;
+  }
+  
+  .prices {
+    width: 237px;
+    height: 18px;
+  }
+  
+  .table_price_p {
+    font-family: Geist;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.5px;
+    text-align: left;
+    color: #9c9c9c;
+  }
+  
+  .table_pieces {
+    width: 68px;
+    height: 26px;
+    padding: 6px 8px;
+    gap: 10px;
+    border-radius: 20px 0px 0px 0px;
+    background-color: #f1f4f6;
+  }
+  
+  .pieces {
+    font-family: Geist;
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 13.75px;
+    text-align: center;
+    width: 52px;
+    height: 14px;
+  }

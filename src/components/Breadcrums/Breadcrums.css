@@ -1,0 +1,42 @@
+.breadcrums{
+    width: 159px;
+    position: absolute;
+height: 45px;
+top: 177px;
+left: 34px;
+padding: 12px;
+gap: 25px;
+display: flex;
+
+
+
+}
+.home {
+    font-family: Geist;
+font-size: 14px;
+font-weight: 500;
+line-height: 21px;
+text-align: left;
+
+color: #393939;
+
+}
+.breadcrums > span >img{
+    width: 5px;
+height: 5px;
+top:10px;
+position: relative;
+background-color: #9C9C9C;
+opacity: 30%;
+
+}
+.table{
+    font-family: Geist;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    display: flex;
+    white-space: nowrap;
+    
+
+}

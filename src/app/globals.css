@@ -2,20 +2,210 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+body{
+  width:100%;
+  height:100%;
+  background-color: white;
+}
+/*Navbar*/
+.navbar{
+  width: 1600px;
+  height:168px;
+  padding-top: 12px;
+  border-bottom: 1px solid;
+}
+.input_bar{
+  width:768px;
+  height:50px;
+  top:29px;
+  left: 173px;
+  border-radius: 6px;
+  padding-left: 15px;
+  gap:10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #F9FAFB;
+  position:absolute;
+  
+  
+}
+input{
+  width:694px;
+  height:21px;
+  
+}
+input::placeholder{
+  font:Geist ;
+
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+
+
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+.logo img {
+  width: 133.01px;
+  height: 65px;
+  position: absolute;
+  top: 33px;
+  left: 29px;
+}
+
+/*SideBar*/
+.inspirations {
+  width: 109px;
+  height: 21px;
+  position: absolute;
+  top: 45px;
+  left: 1059px;
+  display:flex;
+  gap: 8px;
+
+
+}
+.inspirations > p{
+
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    width:80px;
+    height:21px;
+    text-align: right;
+  color: #3B4347;
+  
+}
+.lightbulb{
+  
+    width: 18px;
+    height: 18px;
+    padding-top: 1.5px;
+    padding-left: 3.38px;
+    border: 1px solid #282535; /* Assuming black border, you can change color */
+  
+  
+}
+.mes_favoris{
+
+  position:absolute;
+    width: 164px; 
+    height: 48px; 
+        top: 31px; 
+    left: 1180px;
+    border-radius: 6px; 
+    padding: 10px; 
+    display: flex;
+    gap:8px;
+    border-radius: 6px;
+  
+  
+}
+.mes_favoris >p{
+  font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #3B4347;
+    width:80px;
+    height:21px;
+
+}
+.p24_layout{
+  width: 28px;
+  position:absolute;
+  text-align: center;
+  top:15px;
+  left:126px;
+    height: 18px;
+    border-radius: 30px;
+    background-color: #CAD2D5;
+    font-size: 10px;
+}
+.p24{
+
+  position: absolute;
+    width: 13px; /* Width of 13px */
+    height: 15px; /* Height of 15px */
+    top: 16.5px; /* Position from the top (16.5px) */
+    left: 134px; /* Position from the left (134px) */
+    font-weight: 500;
+  
+    line-height: 15px;
+    color: #242D30;
+  
+}
+/* shoppingCart*/
+.cart{
+
+  position:absolute;
+  display: flex;
+    width: 105px; /* Hug width (105px) */
+    height: 48px; /* Fixed height (48px) */
+    top: 31px; /* Position from the top */
+    left: 1356px; /* Position from the left */
+    border-radius: 6px; /* Rounded corners with a radius of 6px */
+    border: 1px solid #007AAD; /* Border of 1px solid (black color) */
+    padding-top: 10px; /* Padding at the top */
+    padding-right: 16px; /* Padding on the right */
+    padding-bottom: 10px; /* Padding at the bottom */
+    padding-left: 16px; /* Padding on the left */
+    gap: 8px; /* Gap between child elements, if using flex or grid layout */
+  
+  background-color: #0093D0;
+
+}
+.cart_p{
+
+  width: 45px; /* Width of 13px */
+  height: 21px; /* Height of 15px */
+  /* Position from the left (134px) */
+  font-weight: 500;
+  line-height: 21px;
+  font-size: 14px;
+  color:#ffffff
+}
+.cart_img{
+  width: 20px; /* Width of 13px */
+  height: 20px;
+
+}
+.circle{
+  position:absolute;
+  width: 44px; 
+  height: 44px;
+  left:1504px;
+  top:31px;
+  border-radius: 46px;
+  background-color: #EAEDEE;
+
+}
+.nav_bottom{
+  position: absolute;
+  
+    width: 1537px; /* Width of 1537px */
+    height: 37.58px; /* Height of 37.58px */
+    top: 130.42px; /* Position from the top (130.42px) */
+    left: 23px; /* Position from the left (23px) */
+  
   }
-}
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-}
+ .nav_bottom_content{
+  display: flex;
+    width: 1537px; /* Width of 1537px */
+    height: 21px;
+    top: 130.42px;
+    gap:38px;
+    left:23px;
+ }
+ .nav_bottom_content > span{
+  font-size: 14px;
+  font:inter;
+  font-weight: 500;
+  line-height: 21px;
+ }

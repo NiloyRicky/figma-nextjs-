@@ -1,0 +1,73 @@
+.products{
+    width: 1600px;
+height: 570px;
+top: 1150px;
+padding: 30px 0px 0px 0px;
+position: absolute;
+background-color: #FBF9F899;
+
+display: flex;
+flex-direction: column;
+}
+.products_title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1540px;
+height:43px
+
+
+}
+
+.articles{
+    font-family: Cabinet Grotesk;
+font-size: 35px;
+font-weight: 500;
+line-height: 43.4px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+width: 268px;
+height: 43px;
+
+
+}
+.collection{
+    font-family: Cabinet Grotesk;
+font-size: 16px;
+font-weight: 500;
+line-height: 19.84px;
+text-align: left;
+text-decoration-line: underline;
+text-decoration-style: solid;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+width: 204px;
+height: 20px;
+
+
+
+}
+.products_images{
+    width: 1540px;
+    margin:12px 12px;
+height: 437px;
+gap: 19px;
+display: flex;
+overflow: hidden;
+
+
+}
+.product_img{
+    width: 330px;
+height:438px;
+gap: 12px;
+opacity: 0px;
+overflow: hidden;
+flex:0 0 calc(1540px / 4.7);
+position: relative;
+}
+.product_img img{
+    width:100%;
+    height: auto;
+}
